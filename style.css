@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* global rules */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 24rem;
+    display: flex;
+}
+.line {
+    width: 100%;
+    height: 0.5px;
+    background-color: #707070;
+}
+
+/* navbar */
+.nav__logo {
+    margin-right: 4.5rem;
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.nav__links {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.nav__item {
+    margin-left: 1.8rem;
+    margin-right: 1.8rem;
+}
+.nav__item:last-child {
+    margin-left: auto;
+}
+.nav__link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #999999;
+    transition: 0.3s all;
+}
+.nav__link:hover {
+    color: #222;
+}
+
+/* hero img */
+.hero {
+    background-image: url(/hero.jpg);
+    height: calc(100vh - 88.5px);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* info section */
+.info {
+    display: flex;
+    justify-content: center;
+}
+.info h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    width: 58.8rem;
+    text-align: center;
+    margin: 12rem 0;
+}
+
+/* products */
+.products {
+    padding: 10rem 0;
+    display: flex;
+    margin: 0 22rem;
+}
+.product:not(:last-child) {
+    margin-right: 3.8rem;
+}
+.product-title {
+    font-size: 2.6rem;
+    margin-bottom: 4.3rem;
+}
+.product-img {
+    height: 25rem;
+    background-size: cover;
+}
+.product-img--1 {
+    background-image: url(/img1.jpg);
+    background-position: 50% 70%;
+}
+.product-img--2 {
+    background-image: url(/img2.jpg);
+    background-position: 50% 55%;
+}
+.product-img--3 {
+    background-image: url(/img3.jpg);
+}
+.product-text {
+    font-size: 1.8rem;
+    color: #999;
+    line-height: 1.7;
+    margin-top: 3.4rem;
+}
+.product-btn {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    border: 1.5px solid #000;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 1.2rem 3rem;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.product-btn:hover {
+    background-color: #888;
+    color: #eee;
+}
+/* instagram */
+.instagram {
+    margin: 10rem 0;
+}
+.instagram-title {
+    font-size: 4rem;
+    line-height: 1.35;
+    margin-bottom: 8.5rem;
+    text-align: center;
+}
+.gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(2, 27rem);
+    grid-gap: 5rem 7rem;
+}
+.img:hover {
+    opacity: 0.9;
+}
+.img--1 {
+    background-image: url(/g1.jpg);
+    background-size: cover;
+    background-position: 50% 0%;
+}
+.img--2 {
+    background-image: url(/g2.jpg);
+    background-size: cover;
+    background-position: 60% 50%;
+}
+.img--3 {
+    background-image: url(/g3.jpg);
+    background-size: cover;
+    background-position: 50% 0%;
+}
+.img--4 {
+    background-image: url(/g4.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+}
+.img-big {
+    grid-row: 1 / span 2;
+    grid-column: 1 / 2;
+    background-image: url(/main.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+}
+
+/* footer */
+.footer {
+    margin: 8rem 0;
+}
+.footer-text {
+    color: #999;
+    font-weight: 400;
+    font-size: 5rem;
+    text-align: center;
+}
