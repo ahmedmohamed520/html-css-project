@@ -55,7 +55,7 @@ body {
 
 /* hero img */
 .hero {
-    background-image: url(/hero.jpg);
+    background-image: url(hero.jpg);
     height: calc(100vh - 88.5px);
     background-size: cover;
     background-position: 50% 50%;
@@ -92,15 +92,15 @@ body {
     background-size: cover;
 }
 .product-img--1 {
-    background-image: url(/img1.jpg);
+    background-image: url(img1.jpg);
     background-position: 50% 70%;
 }
 .product-img--2 {
-    background-image: url(/img2.jpg);
+    background-image: url(img2.jpg);
     background-position: 50% 55%;
 }
 .product-img--3 {
-    background-image: url(/img3.jpg);
+    background-image: url(img3.jpg);
 }
 .product-text {
     font-size: 1.8rem;
@@ -144,29 +144,29 @@ body {
     opacity: 0.9;
 }
 .img--1 {
-    background-image: url(/g1.jpg);
+    background-image: url(g1.jpg);
     background-size: cover;
     background-position: 50% 0%;
 }
 .img--2 {
-    background-image: url(/g2.jpg);
+    background-image: url(g2.jpg);
     background-size: cover;
     background-position: 60% 50%;
 }
 .img--3 {
-    background-image: url(/g3.jpg);
+    background-image: url(g3.jpg);
     background-size: cover;
     background-position: 50% 0%;
 }
 .img--4 {
-    background-image: url(/g4.jpg);
+    background-image: url(g4.jpg);
     background-size: cover;
     background-position: 0 50%;
 }
 .img-big {
     grid-row: 1 / span 2;
     grid-column: 1 / 2;
-    background-image: url(/main.jpg);
+    background-image: url(main.jpg);
     background-size: cover;
     background-position: 50% 0;
 }
